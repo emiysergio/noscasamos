@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Elliora';
+  src: url('Elliora.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'College';
+  src: url('SuperCollege.otf') format('truetype');
+}
+body{
+  font-family: 'Elliora', arial,  Sans-Serif;
+  font-size:26px;
+  line-height: 30px;
+  color:#212529;
+}
+h2{
+  font-family: 'College', arial, Sans-Serif;
+  font-size:35px;
+  font-weight:700;
+  line-height:39px;
+  color:#013f14;
+}
+.timeline{
+  color:#013f14;
+  font-size:25px;
+}
+hr{
+  width: 50%;
+  margin: 20px auto 30px auto;
+  border:1px solid #013f14!important;
+  opacity: 1!important;
+}
+.button-map{
+  background:#013f14;
+  border-radius:8px;
+  text-transform:uppercase;
+  font-size:22px;
+  line-height:26px;
+  padding: 8px 10px;
+  font-family: 'College', arial, Sans-Serif;
+  border: 0;
+  color:#FFF!important;
+  text-decoration: none!important;
+}
+.button-map:hover{
+  color: #FFF !important;
+}
+.button-map img{
+  vertical-align: text-top;
+  margin-right: 2px;
+}
+.bg-asistencia{
+  background:#e5ebe7;
+}
+.was a{
+  font-family: 'College', arial, Sans-Serif;
+  font-weight:700;
+  font-size:18px;
+  line-height:23px;
+  text-decoration: none;
+  color:#212529!important;
+}
+.was img{
+  vertical-align: top;
+  margin-right:5px;
+}
+.line-timeline{
+  position: absolute;
+  height: 100%;
+  border:0;
+  border-right: 1px solid #054519;
+  left: 50%;
+  z-index: -1;
+}
+@media(max-width:991px) {
+  .logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 15%;
+    max-width: 50%;
+  }
+}
+@media(min-width:992px){
+  .logo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top:90px;
+    max-width: 50%;
+  }
+}
+@media(max-width:991px) {
+  .header-family {
+    margin-top: 20%;
+  }
+}
+@media(min-width:992px){
+  .header-family{
+    margin-top:100px
+  }
+}
